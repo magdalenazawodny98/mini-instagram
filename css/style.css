@@ -1,0 +1,79 @@
+/* Importy */
+@import url(reset.css);
+
+* {
+    font-family: "Open Sans", "Arial", sans-serif;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+/*Main image*/
+
+.header {
+    height: 250px;
+    background-image: url("../images/holograficzny-wektorowy-t%C5%82o-iryzuje-foli%C4%99-usterka-hologram-pastelowa-neonowa-t%C4%99cza-121160138.jpg");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff0234;
+}
+
+.header h1 {
+    font-family: "Castellar", serif;
+    font-size: 65px;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+body {
+    background-color: lemonchiffon;
+}
+
+.forms {
+    display: flex;
+    padding: 30px 100px;
+}
+
+.forms .login {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.forms .registration {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.registration form, .login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    padding: 10px 0;
+}
+
+.input-group strong {
+    flex: 3;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.input-group input {
+    flex: 7;
+}
+
+.submit-buttom {
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit-buttom input {
+    width: 100px;
+}
+

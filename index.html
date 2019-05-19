@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mini Instagram</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">    
+    </head>
+    <body>
+        <section class="header">      
+            <h1>Mini Instagram</h1>
+        </section>
+        <section class="forms">
+<!--            <h2>Nie masz konta? Zarejestruj się i dołącz do naszej społeczności.</h2>-->
+            <div class="login">
+                <form method="POST" action="login.php">
+                    <div class="input-group">
+                        <strong>Login:</strong>
+                        <input placeholder="login" type="text" name="login">
+                    </div>
+                    <div class="input-group">
+                        <strong>Hasło:</strong>
+                        <input placeholder="hasło" type="password" name="haslo">
+                    </div>  
+                    <div class="submit-buttom">
+                        <input type="submit" value="Zaloguj się" name="zaloguj">
+                    </div>
+                </form>
+            </div>
+            <div class="registration">
+                <form method="POST" action="rejestracja.php">
+                    <div class="input-group">
+                        <strong>Login:</strong>
+                        <input placeholder="login" type="text" name="login">
+                    </div>
+                    <div class="input-group"> 
+                        <strong>Hasło:</strong>
+                        <input placeholder="hasło" type="password" name="haslo1">
+                    </div>    
+                    <div class="input-group">
+                        <strong>Powtórz hasło:</strong>
+                        <input placeholder="powtórz hasło" type="password" name="haslo2">
+                    </div>
+                    <div class="input-group">
+                        <strong>Email:</strong>
+                        <input placeholder="e-mail" type="text" name="email">
+                    </div>    
+                    <div class="submit-buttom">
+                        <input type="submit" value="Utwórz konto" name="rejestruj">
+                    </div>    
+                </form>
+            </div> 
+        </section>
+        <!-- skrypt do obslugi cookies -->
+        <script type="text/javascript" src="https://cookiegenerator.eu/cookie.js?position=bottom&amp;skin=cookielaw1&amp;animation=shake&amp;box_radius=8&amp;delay=0&amp;msg_color=f4e9e9&amp;msg=Ta%20strona%20korzysta%20z%20ciasteczek%2C%20aby%20%C5%9Bwiadczy%C4%87%20us%C5%82ugi%20na%20najwy%C5%BCszym%20poziomie.%20Dalsze%20korzystanie%20ze%20strony%20oznacza%2C%20%C5%BCe%20zgadzasz%20si%C4%99%20na%20ich%20u%C5%BCycie.&amp;accept_text=Zgoda.&amp;accept_radius=5">
+        </script>
+    </body>
+</html>
