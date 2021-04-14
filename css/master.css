@@ -1,0 +1,18 @@
+main {
+    background: #fff;
+    min-height: 98vh;
+    margin: 70px 10px 10px 10px;
+    color: #2c3e50;
+    padding: 0 10vw;
+}
+
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 2em;
+    }
+
+    main {
+        margin: 40px 5px 5px 5px;
+        padding: 0 5vw;
+    }
+}

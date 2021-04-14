@@ -1,0 +1,506 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.header-cnt {
+    height: auto;
+    color: white;
+    background-image: url("../img/headerbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.navbar-brand > img {
+    width: 150px;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    margin: 5px 8px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-toggler {
+    min-height: 48px;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.fa-sign-in-alt, .fa-registered {
+    margin-right: 5px;
+}
+
+
+/* HEADER TITLE */
+
+.content-title-cnt {
+    position: relative;
+}
+
+.content-title {
+    display: block;
+    margin-top: 120px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 70px;
+}
+
+.content-subtitle {
+    display: block;
+    text-align: center;
+    letter-spacing: 6px;
+    margin: 0px 0 0 0;
+    font-size: 25px;
+}
+
+.header-content-buttons {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.content-btn-first {
+    background: none;
+    border: 2px solid #ffb100;
+    color: white;
+    transition: 0.2s background;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 17px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.content-btn-first:hover {
+    background: #ffb100;
+}
+
+.content-btn-second {
+    background: #ffb100;
+    color: white;
+    transition: 0.2s background;
+    border: 2px solid #ffb100;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 17px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.content-btn-second:hover {
+    background: none;
+    outline-color: #ffb100;
+}
+
+
+/* readmore */
+
+.main-readmore-cnt {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.readmore {
+    padding: 40px 0;
+}
+
+.readmore-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.readmore-widgets {
+    display: flex;
+    margin: 60px auto 0px auto;
+    padding: 0;
+    width: 50%;
+}
+
+.readmore-item {
+    text-align: center;
+    padding: 20px 0;
+    width: 33.333%;
+    background: #fcfcfc;
+}
+
+.readmore-item:first-child {
+    border-top: 1px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    box-shadow: inset 0px 0px 21px 1px rgba(255, 210, 109, 0.57);
+    -moz-box-shadow: inset 0px 0px 21px 1px rgba(255, 210, 109, 0.57);
+    -webkit-box-shadow: inset 0px 0px 21px 1px rgba(255, 210, 109, 0.57);
+
+}
+
+.readmore-item:nth-child(2) {
+    border-top: 1px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.readmore-item:nth-child(3) {
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+}
+
+.fa-comment-dots, .fa-code, .fa-envelope-square {
+    font-size: 35px;
+    color: #3a5f88;
+    margin-top: 10px;
+}
+
+.fa-users {
+    font-size: 35px;
+    margin-top: 10px;
+    color: #ffb100;
+}
+
+.readmore-item > h4 {
+    font-size: 20px;
+    margin: 25px 10px 10px 10px;
+    color: #172e48;
+}
+
+.readmore-widgets-text {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 40px auto;
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 20px;
+    color: #656565;
+    line-height: 28px;
+    background: #fcfcfc;
+
+}
+
+.readmore-widgets-text > h2 {
+    color: #393939;
+    margin: 30px 0 10px 0;
+    padding: 0;
+}
+
+.readmore-widgets-text > p {
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+
+/* COUNTER */
+
+.counter-bg {
+    width: 100%;
+    background-image: url("../img/statsbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.counter-elements {
+    max-width: 1280px;
+    height: 100%;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    padding: 30px 0;
+
+}
+
+.counter {
+    width: 25%;
+    display: inline-block;
+}
+
+.fa-table, .fa-eye, .fa-list, .fa-images {
+    color: #ffb100;
+    font-size: 40px;
+    text-shadow: 2px 2px rgba(255, 177, 0, 0.29);
+}
+
+.counter-stats {
+    display: block;
+    margin-top: 23px;
+    font-size: 17px;
+    color: white;
+}
+
+footer {
+    background: #143150;
+    width: 100%;
+    height: 200px;
+}
+
+.footer-copyright {
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+
+.footer-copyright > img {
+    display: block;
+    margin: 0 auto;
+    padding: 35px 0 0 0;
+    height: 130px;
+    opacity: 0.9;
+}
+
+.copyright-text {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 1200px) {
+    .content-title {
+        margin-top: 90px;
+        font-size: 55px;
+    }
+
+    .content-subtitle {
+        font-size: 20px;
+    }
+
+    .header-content-buttons {
+        padding: 45px 0;
+    }
+
+    .content-btn-first {
+        font-size: 14px;
+
+        padding: 15px 22px;
+    }
+
+    .content-btn-second {
+        font-size: 14px;
+        padding: 15px 22px;
+    }
+
+    .fa-table, .fa-eye, .fa-list, .fa-images {
+        font-size: 30px;
+    }
+
+    .counter-stats {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .readmore-item > i {
+        font-size: 25px;
+    }
+
+    .readmore-title {
+        font-size: 22px;
+    }
+
+    .readmore-widgets-text > h2 {
+        font-size: 22px;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .readmore-widgets-text > p {
+        font-size: 15px;
+        line-height: 26px;
+        margin-bottom: 6px;
+    }
+
+    .readmore-widgets {
+        width: 70%;
+    }
+
+    .readmore-widgets-text {
+        width: 70%;
+    }
+
+    .counter-bg {
+
+    }
+
+    .counter > i {
+        font-size: 32px;
+    }
+
+    .counter-stats {
+        font-size: 14px;
+    }
+
+    .footer-copyright > img {
+        height: 110px;
+    }
+
+    footer {
+        margin-top: 0px;
+        height: 140px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .content-title {
+        font-size: 30px;
+    }
+
+    .content-subtitle {
+        font-size: 17px;
+    }
+
+    .header-content-buttons {
+        margin-top: 70px;
+    }
+
+    .readmore {
+        margin-top: 65px;
+    }
+
+    .readmore-title {
+        font-size: 19px;
+    }
+
+    .readmore-widgets-text > h2 {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .readmore-widgets-text > p {
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 6px;
+    }
+
+    .readmore-widgets {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .readmore-widgets-text {
+        width: 100%;
+    }
+
+    .readmore-item {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .readmore-item > i {
+        font-size: 22px;
+    }
+
+    .counter-bg {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .counter {
+        width: 50%;
+        display: block;
+        padding: 20px 0;
+    }
+
+    .counter-elements {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .counter > i {
+        font-size: 22px;
+    }
+
+    .counter-stats {
+        font-size: 12px;
+    }
+
+    .footer-copyright > img {
+        height: 90px;
+    }
+
+    footer {
+        height: 150px;
+    }
+
+    .content-title-element-left {
+        display: none;
+    }
+
+    .content-title-element-right {
+        display: none;
+    }
+
+    .readmore-widgets {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .readmore-widgets-text {
+        border: none;
+    }
+
+    .readmore-widgets-text > h2 {
+        display: none;
+    }
+
+    .copyright-text {
+        transform: none;
+        left: unset;
+        position: unset;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .fa-table, .fa-eye, .fa-list, .fa-images {
+        font-size: 20px;
+    }
+
+    .counter-stats h3 {
+        font-size: 17px;
+    }
+
+    .counter-stats {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
